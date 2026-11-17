@@ -5,16 +5,16 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 /**
- * Microsoft Fluent Design 2 design tokens for Euro-Office Android tablet workspace.
+ * Microsoft Fluent Design 2 design tokens for Office Suite Android tablet workspace.
  * Follows Fluent 2 specifications: https://fluent2.microsoft.design
  */
 object FluentDesignTokens {
-    // Fluent 2 Brand Colors (Office suite)
-    val BrandWord = Color(0xFF185ABD)           // Microsoft Word / Euro-Office Write
+    // Fluent 2 Brand Colors (Office Suite)
+    val BrandWord = Color(0xFF185ABD)           // Microsoft Word / Office Suite Write
     val BrandWordSubtle = Color(0xFFEBF3FC)
-    val BrandExcel = Color(0xFF107C41)          // Microsoft Excel / Euro-Office Sheet
+    val BrandExcel = Color(0xFF107C41)          // Microsoft Excel / Office Suite Sheet
     val BrandExcelSubtle = Color(0xFFECF7ED)
-    val BrandPowerPoint = Color(0xFFC43E1C)     // Microsoft PowerPoint / Euro-Office Presentation
+    val BrandPowerPoint = Color(0xFFC43E1C)     // Microsoft PowerPoint / Office Suite Presentation
     val BrandPowerPointSubtle = Color(0xFFFDF0ED)
     val BrandCopilot = Color(0xFF6B45A8)        // Fluent Copilot Accent
 
