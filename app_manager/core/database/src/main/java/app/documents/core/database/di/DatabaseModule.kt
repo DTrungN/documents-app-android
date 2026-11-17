@@ -43,4 +43,12 @@ object DatabaseModule {
     fun provideRecentDataSource(recentDatabase: RecentDatabase): RecentDataSource {
         return RecentDataSourceImpl(recentDatabase)
     }
+
+    @Provides
+    @Singleton
+    fun providesWorkspaceDatabase(context: Context): app.documents.core.database.workspace.WorkspaceDatabase {
+        return Room
+            .databaseBuilder(context, app.documents.core.database.workspace.WorkspaceDatabase::class.java, app.documents.core.database.workspace.WorkspaceDatabase.NAME)
+            .build()
+    }
 }
